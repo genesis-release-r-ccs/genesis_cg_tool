@@ -1,0 +1,17 @@
+[membrane]
+# Rational (required)
+upper.composition = { popc = "1" }
+lower.composition = { popc = "1" }
+
+# Fill system of size (required if number of lipids is not present)
+#size = { x = 25.0, y = 25.0 }
+
+upper.nlipids_per_side = 32
+lower.nlipids_per_side = 32
+
+# Output path (default: "./")
+output.path = "./"
+# Output name (default: out_membrane)
+output.name = "membrane"
+# Output formats (default: ["gro", "top"])
+output.formats = ["gro", "pdb", "top"]
